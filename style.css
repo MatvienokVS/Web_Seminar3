@@ -1,0 +1,25 @@
+header{
+	width: 100%;
+	background: #4285F4;
+	height: 80px;
+	text-align:center
+}
+
+h1{
+    text-align:center
+}
+
+#bg{
+	width: 400px;
+	height: 250px;
+	background-image: url(html.png);
+}
+
+#footer {
+	width: 1500px;
+	margin: 490px auto 0;
+	height: 20px;
+	position: relative;
+
+	background-color: rgb(51,51,204);
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script/main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Моя страница</title>
+</head>
+<body>
+<body style="background-color: #4285F4">
+<img src="img/i.jpg" alt="" width="50" height="50">
+<heder>
+    Система документооборота
+    <a href="https://www.odoo.com"> Odoo </a>
+</heder>
+
+<h1>Организация рога & копыта</h1>
+<p>Главное меню</p>
+
+<menu>
+    <ol>
+    <li><button onclick="allDoc()">Журнал документов </button></li>
+    <li><button onclick="addDoc()">Создать документ</button></li>
+    <li><button onclick="searchDoc()">Поиск документа</button></li>
+    <li><button onclick="controlDoc()">Документы на контроль</button></li>
+    </ol>
+</menu>
+<p>Отправка сообщений</p>
+<label for="name">Данные для отправки:</label>
+<input type="text" id="name" required minlength="5" maxlength="8" size="25" placeholder="Введите данные для отправки" >
+    <button onclick="sendMessage()">Send</button>
+
+<footer id="footer">Разработано при помощи GB</footer>
+</body>
+</html>
